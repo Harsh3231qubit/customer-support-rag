@@ -67,5 +67,4 @@ print(generate_answer("How do I cancel my order?"))
 - Default LLM is `Qwen/Qwen3-1.7B` loaded in 4-bit (needs a GPU + `bitsandbytes`).
   For CPU-only environments, edit `src/generator.py`'s `load_llm(use_4bit=False)`
   call and switch `LLM_MODEL_NAME` in `src/config.py` to `Qwen/Qwen3-0.6B`.
-- `data/` (chunks, embeddings, Qdrant DB) and `hf_cache/` are gitignored —
-  they're generated artifacts, not source code, and shouldn't be pushed to GitHub.
+
