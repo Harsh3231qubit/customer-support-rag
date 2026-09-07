@@ -1,4 +1,4 @@
-# Basic RAG Pipeline
+# Customer-support-rag
 
 A minimal Retrieval-Augmented Generation pipeline:
 
