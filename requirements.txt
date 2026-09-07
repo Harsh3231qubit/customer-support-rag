@@ -1,0 +1,8 @@
+datasets
+pandas
+sentence-transformers
+qdrant-client
+transformers
+accelerate
+bitsandbytes
+torch
